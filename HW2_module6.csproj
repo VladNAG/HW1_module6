@@ -11,10 +11,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controlers\" />
-    <Folder Include="Entityes\" />
-    <Folder Include="Interfeces\" />
-  </ItemGroup>
-
 </Project>
