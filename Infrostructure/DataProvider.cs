@@ -5,8 +5,7 @@ namespace HW2_module6.Infrostructure
 {
     public class DataProvider: IDataProvider
     {
-        private List<Product> _data = new List<Product>();
-
+        public List<Product> _data = new List<Product>();
         public Product[] GetAllProducts()
         {
             return _data.ToArray();
@@ -29,6 +28,7 @@ namespace HW2_module6.Infrostructure
             {
                 existingProduct.Name = product.Name;
                 existingProduct.Price = product.Price;
+                existingProduct.Color = product.Color;
             }
         }
 

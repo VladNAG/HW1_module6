@@ -17,6 +17,7 @@ namespace HW2_module6.Controlers
 
         [HttpGet]
         public Product[] GetAllProduct()
+
         {
             return _productService.GetAll();
         }
